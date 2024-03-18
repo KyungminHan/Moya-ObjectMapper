@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Moya/Moya.git", from: .init(14, 0, 0)),
-        .package(url: "https://github.com/tristanhimmelman/ObjectMapper.git", from: .init(4, 2, 0)),
+        .package(url: "https://github.com/elmetal/ObjectMapper.git", .branch("feature/fix-swift-tools-version")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: .init(5, 1, 1)),
         .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift.git", from: .init(6, 1, 0))
     ],
